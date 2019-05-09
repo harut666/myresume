@@ -1,0 +1,46 @@
+html {
+	box-sizing:border-box;
+}
+*, *:after, *:before {
+	 box-sizing: inherit; /* наследауем свойскво у родителя */
+}
+.container {
+	display: flex;
+	max-width: 960px;
+	background-color: #eaeaea;
+	margin: 20px auto;	/* выравнивание по середине */
+}
+.profile-photo{
+	height: 300px;
+	background-image: url(ph2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.profile-info{
+	padding-left: 30px;	/* установка отступов  */
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.profile-text{
+	font-size: 13px;
+	line-height: 24.19px;		/* межстрочный */
+	margin-bottom: 50px;}
+.profile {
+	max-width: 350px;	/* ширина профиля */
+	background-color: #39383a;
+	color: #ababab;
+}
+.heading{
+	margin: 0;	/*сброс отступа   */
+	padding-bottom: 16px; /*отступ штриха от заголовка*/
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.heading-light{
+	color: #ffffff;	/* цвет заголовка портфолио */
+  border-bottom: 1px #8e8d8e dashed;	/* пунктир под заголовком */
+
+
+}
